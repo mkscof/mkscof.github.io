@@ -9,7 +9,8 @@ body {
     padding: 0;
     min-height: 100%;
     width: 100%;
-    background: -webkit-linear-gradient(right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 0%, rgba(187,230,223,1) 100%);
+    /* background: -webkit-linear-gradient(right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 0%, rgba(187,230,223,1) 100%); */
+    background-image: '../images/cement.jpg';
     background-size: cover;
     font-family: Avenir;
     /* border: 5px solid rgb(240, 194, 194); */
