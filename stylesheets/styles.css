@@ -1,0 +1,70 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    width: 100%;
+    background: -webkit-linear-gradient(right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 0%, rgba(187,230,223,1) 100%);
+    background-size: cover;
+    font-family: Avenir;
+    /* border: 5px solid rgb(240, 194, 194); */
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: 25%, 25%, 25%, 25%;
+    grid-template-rows: 25%, 25%, 25%, 25%;
+}
+
+#leftDivisor {
+    grid-row: 1 / 5;
+    grid-column: 1 / 3;  
+    background: -webkit-linear-gradient(left, rgba(89,89,89,1) 0%, rgba(71,71,71,1) 0%, rgba(0,0,0,1) 0%, rgba(102,102,102,1) 0%, rgba(76,76,76,1) 0%, rgba(19,19,19,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#595959', endColorstr='#131313', GradientType=1 );
+}
+
+#links {
+    grid-row-start: 1;
+    grid-column: 2 / 5;
+    justify-self: end;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+}
+
+ul > li{
+    display:inline-block;
+    margin: 20px;
+}
+
+#welcomeTitle {
+    grid-row: 2;
+    grid-column: 1 / 3;
+    justify-self: center;
+    font-size: 150%;
+    font-family: Lora;
+    color: rgb(255, 174, 0);
+    margin: 20px;
+}
+
+#description {
+    grid-row: 3 / 5;
+    grid-column: 3 / 5;
+    margin: 10px;
+}
+
+.button {
+    background-color: rgb(240, 194, 194);
+    border: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Avenir;
+    cursor: pointer;
+    border-radius: 8px;
+}
