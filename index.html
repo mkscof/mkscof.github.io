@@ -1,39 +1,56 @@
 <!DOCTYPE html>
-<head>
-    <title>I'm a Real Developer I Swear</title>
-    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.png"/>
-    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
-</head>
-<body>
-    <div class="gridItem" id="leftDivisor">
-    </div>
-    <div class="gridItem" id="links">
-        <ul>
-            <li id="githubBtn">
-                <a href="https://github.com/mkscof" class="button">Github</a>
-            </li>
-            <li id="linkedinBtn">
-                <a href="https://www.linkedin.com/in/mkscof/" class="button">LinkedIn</a>
-            </li>
-            <li id="resumeBtn">
-                <a href="./images/resume.pdf" class="button">Resume</a>
-            </li>
-            <li id="contactBtn">
-                <a href="./images/grayscale.jpg" class="button">Contact</a>
-            </li>
-        </ul>
-    </div>
-    <div class="gridItem" id="welcomeTitle">
-        <h2>Hi! Welcome to my Website.</h2>
-    </div>
-    <div class="gridItem" id="description">
-        <h3>About Me</h3>
-        <p>
-            I'm Morgan Scofield, and I'm an aspiring web developer. 
-            Currently practicing my JavaScript and trying to learn Angular 2+.
-            This website is a work in progress, and I will be updating it as much
-            as possible.
-        </p>
-    </div>
-</body>
-<script src="./scripts/app.js"></script>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.png"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+        
+        <title>It's Alive!</title>
+    </head>
+    <body>
+        <div class="gridItem" id="leftDivisor">
+        </div>
+        <div class="gridItem" id="links">
+            <ul>
+                <li id="githubBtn">
+                    <a href="https://github.com/mkscof" class="button">Github</a>
+                </li>
+                <li id="linkedinBtn">
+                    <a href="https://www.linkedin.com/in/mkscof/" class="button">LinkedIn</a>
+                </li>
+                <li id="resumeBtn">
+                    <a href="./images/resume.pdf" class="button">Resume</a>
+                </li>
+                <li id="contactBtn">
+                    <a class="dropdown-toggle" role="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Contact
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item">(626) 644-1666</a>
+                        <a class="dropdown-item">mkscofie@gmail.com</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="gridItem" id="welcomeTitle">
+            <h2>Hi! Welcome to my Website.</h2>
+        </div>
+        <div class="gridItem" id="description">
+            <h3>About Me</h3>
+            <p>
+                My name is Morgan Scofield, I'm an aspiring web developer. 
+                Currently practicing my JavaScript and trying to learn Angular 2+.
+                This website is a work in progress, and I will be updating it as much
+                as possible.
+            </p>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="./scripts/app.js"></script>
+    </body>
+</html>
