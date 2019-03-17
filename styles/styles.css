@@ -60,7 +60,7 @@ ul > li{
 }
 
 .button {
-    background-color: rgb(240, 194, 194);
+    background: linear-gradient(135deg, rgb(243, 174, 174), #d0c3e0);
     border: solid;
     border-width: thin;
     border-color: black;
@@ -76,7 +76,7 @@ ul > li{
 }
 
 #dropdownMenuButton {
-    background-color: rgb(240, 194, 194);
+    background: linear-gradient(135deg, rgb(243, 174, 174), #d0c3e0);
     border: solid;
     border-width: thin;
     border-color: black;
@@ -92,7 +92,7 @@ ul > li{
 }
 
 .dropdown-menu {
-    background-color: rgb(240, 194, 194);
+    background: linear-gradient(135deg, rgb(243, 174, 174), #d0c3e0);
     border: solid;
     border-width: thin;
     border-color: black;
