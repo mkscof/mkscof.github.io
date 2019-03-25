@@ -57,13 +57,14 @@ ul > li{
     grid-row: 3 / 5;
     grid-column: 3 / 5;
     margin: 10px;
+    padding: 10px;
 }
 
 .button {
-    background: linear-gradient(135deg, rgb(243, 174, 174), #d0c3e0);
-    border: solid;
+    background: linear-gradient(135deg, rgb(142, 250, 244), rgb(107, 107, 107));
+    /* border: solid;
     border-width: thin;
-    border-color: black;
+    border-color: black; */
     color: black;
     padding: 10px;
     text-align: center;
@@ -72,14 +73,14 @@ ul > li{
     font-size: 16px;
     font-family: Avenir;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 #dropdownMenuButton {
-    background: linear-gradient(135deg, rgb(243, 174, 174), #d0c3e0);
-    border: solid;
+    background: linear-gradient(135deg, rgb(142, 250, 244), rgb(107, 107, 107));
+    /* border: solid;
     border-width: thin;
-    border-color: black;
+    border-color: black; */
     color: black;
     padding: 10px;
     text-align: center;
@@ -88,14 +89,14 @@ ul > li{
     font-size: 16px;
     font-family: Avenir;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 .dropdown-menu {
-    background: linear-gradient(135deg, rgb(243, 174, 174), #d0c3e0);
-    border: solid;
+    background: linear-gradient(135deg, rgb(142, 250, 244), rgb(107, 107, 107));
+    /* border: solid;
     border-width: thin;
-    border-color: black;
+    border-color: black; */
     color: black;
     padding: 10px;
     text-align: center;
@@ -104,7 +105,7 @@ ul > li{
     font-size: 16px;
     font-family: Avenir;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 .open > .dropdown-menu {
